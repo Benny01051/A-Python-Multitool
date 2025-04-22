@@ -9,7 +9,7 @@ colorama.init(autoreset=True)
 def about():
     system("Title: About the Tool")
     print(Fore.CYAN + "This tool is made by: Benny / " + Fore.RED + "---" + Style.RESET_ALL)
-    print(Fore.CYAN + "Free Version on https://YOURDISCORDERVER / " + Fore.RED + "---" + Style.RESET_ALL)
+    print(Fore.CYAN + "Free Version on https://YOURDISCORDSERVER / " + Fore.RED + "---" + Style.RESET_ALL)
     
     while True:
         back = input(Fore.YELLOW + "Do you want to go back? (y/n): " + Style.RESET_ALL).lower()
